@@ -34,7 +34,7 @@ body {
 }
 
 .intro-section {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/contract-3.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/contract-3.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/contract-3.jpg);
     background-image: url(../img/contract-3.jpg);
     background-size: cover;
@@ -47,7 +47,7 @@ body {
 }
 
 .intro-section-small {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/contract-4-small.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/contract-3.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/contract-3.jpg);
     background-image: url(../img/contract-3.jpg);
     background-size: cover;
@@ -236,24 +236,6 @@ hr {
     color: #1c1b1b;
 }
 
-/** Separator **/
-
-.separator {height: 1.5em; background:
-background: rgb(63,76,107) !Important; 
-background: -moz-linear-gradient(top,  rgba(63,76,107,1) 0%, rgba(63,76,107,1) 66%) !Important ; 
-background: -webkit-linear-gradient(top,  rgba(63,76,107,1) 0%,rgba(63,76,107,1) 66%)!Important ; 
-background: linear-gradient(to bottom,  rgba(63,76,107,1) 0%,rgba(63,76,107,1) 66%) !Important; 
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', endColorstr='#3f4c6b',GradientType=0 ); 
-}
-
-.separator-2 {height: 0.5em; background:
-background: rgb(63,76,107); 
-background: -moz-linear-gradient(top,  rgba(63,76,107,1) 0%, rgba(63,76,107,1) 66%); 
-background: -webkit-linear-gradient(top,  rgba(63,76,107,1) 0%,rgba(63,76,107,1) 66%); 
-background: linear-gradient(to bottom,  rgba(63,76,107,1) 0%,rgba(63,76,107,1) 66%);  
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', endColorstr='#3f4c6b',GradientType=0 ); }
-
-
 /*** Footer Section  ***/
 
 footer {
@@ -313,16 +295,3 @@ footer .container {
         margin-left: 6% !important;
     }
 }
-
-
-/*@media(min-width:767px) {
-    .navbar {
-        padding: 20px 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
-    }
-
-    .top-nav-collapse {
-        padding: 0;
-    }
-}*/
